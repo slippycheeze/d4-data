@@ -1,3 +1,6 @@
+# don't commit the log file to the repo after the workflow run
+/fetch_data.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
