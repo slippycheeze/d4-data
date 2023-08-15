@@ -123,3 +123,66 @@
 2023-08-15 09:49:36,534 - __main__ - INFO - has logged in since last check: True
 2023-08-15 09:49:36,534 - __main__ - INFO - completed processing account: 87115110
 2023-08-15 09:49:36,534 - __main__ - INFO - COMPLETE EXECUTE
+2023-08-15 09:50:33,653 - __main__ - DEBUG - getting env var: DATA_PATH
+2023-08-15 09:50:33,653 - __main__ - DEBUG - couldn't get env var DATA_PATH - using default: data
+2023-08-15 09:50:33,653 - __main__ - INFO - START EXECUTE
+2023-08-15 09:50:33,653 - __main__ - INFO - processing account: 87115110
+2023-08-15 09:50:33,653 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110
+2023-08-15 09:50:34,003 - __main__ - INFO - fetching character id: SlippyCheeze - b6eb7620-0239-11ee-85c0-db27ed48d2f3
+2023-08-15 09:50:34,003 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/b6eb7620-0239-11ee-85c0-db27ed48d2f3
+2023-08-15 09:50:34,216 - __main__ - INFO - queue position 3 - sleeping for 3 seconds
+2023-08-15 09:50:37,216 - __main__ - INFO - fetching character id: SlippyCheeze - b6eb7620-0239-11ee-85c0-db27ed48d2f3
+2023-08-15 09:50:37,216 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/b6eb7620-0239-11ee-85c0-db27ed48d2f3
+2023-08-15 09:50:37,427 - __main__ - INFO - last login: 1689705654517000000
+2023-08-15 09:50:37,428 - __main__ - INFO - has logged in since last check: True
+2023-08-15 09:50:37,428 - __main__ - INFO - fetching character id: SlippyCheeze - d83cf520-0102-11ee-8daf-07afa85cfb1d
+2023-08-15 09:50:37,428 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/d83cf520-0102-11ee-8daf-07afa85cfb1d
+2023-08-15 09:50:38,373 - __main__ - INFO - queue position 4 - sleeping for 3 seconds
+2023-08-15 09:50:41,374 - __main__ - INFO - fetching character id: SlippyCheeze - d83cf520-0102-11ee-8daf-07afa85cfb1d
+2023-08-15 09:50:41,374 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/d83cf520-0102-11ee-8daf-07afa85cfb1d
+2023-08-15 09:50:41,635 - __main__ - INFO - last login: 1689705671346000000
+2023-08-15 09:50:41,635 - __main__ - INFO - has logged in since last check: True
+2023-08-15 09:50:41,636 - __main__ - INFO - fetching character id: SlippyCheeze - 460e0fc0-32ff-11ee-abce-7144c5626e68
+2023-08-15 09:50:41,636 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/460e0fc0-32ff-11ee-abce-7144c5626e68
+2023-08-15 09:50:41,848 - __main__ - INFO - queue position 3 - sleeping for 3 seconds
+2023-08-15 09:50:44,849 - __main__ - INFO - fetching character id: SlippyCheeze - 460e0fc0-32ff-11ee-abce-7144c5626e68
+2023-08-15 09:50:44,849 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/460e0fc0-32ff-11ee-abce-7144c5626e68
+2023-08-15 09:50:45,164 - __main__ - INFO - last login: 1689705728992000000
+2023-08-15 09:50:45,165 - __main__ - INFO - has logged in since last check: True
+2023-08-15 09:50:45,165 - __main__ - INFO - fetching character id: SlippyCheeze - 4e04bca0-2734-11ee-8530-bbeec4d445cb
+2023-08-15 09:50:45,165 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/4e04bca0-2734-11ee-8530-bbeec4d445cb
+2023-08-15 09:50:45,417 - __main__ - INFO - queue position 3 - sleeping for 3 seconds
+2023-08-15 09:50:48,417 - __main__ - INFO - fetching character id: SlippyCheeze - 4e04bca0-2734-11ee-8530-bbeec4d445cb
+2023-08-15 09:50:48,417 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/4e04bca0-2734-11ee-8530-bbeec4d445cb
+2023-08-15 09:50:48,626 - __main__ - INFO - last login: 1691593298387000000
+2023-08-15 09:50:48,626 - __main__ - INFO - has logged in since last check: True
+2023-08-15 09:50:48,627 - __main__ - INFO - fetching character id: SlippyCheeze - a72de170-2721-11ee-b160-d53452f8e0b4
+2023-08-15 09:50:48,627 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/a72de170-2721-11ee-b160-d53452f8e0b4
+2023-08-15 09:50:48,841 - __main__ - INFO - queue position 3 - sleeping for 3 seconds
+2023-08-15 09:50:51,841 - __main__ - INFO - fetching character id: SlippyCheeze - a72de170-2721-11ee-b160-d53452f8e0b4
+2023-08-15 09:50:51,841 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/a72de170-2721-11ee-b160-d53452f8e0b4
+2023-08-15 09:50:52,165 - __main__ - INFO - last login: 1692087621282000000
+2023-08-15 09:50:52,166 - __main__ - INFO - has logged in since last check: True
+2023-08-15 09:50:52,167 - __main__ - INFO - fetching character id: SlippyCheeze - f0fb1000-0c70-11ee-af5d-c73b7f793038
+2023-08-15 09:50:52,167 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/f0fb1000-0c70-11ee-af5d-c73b7f793038
+2023-08-15 09:50:52,624 - __main__ - INFO - queue position 3 - sleeping for 3 seconds
+2023-08-15 09:50:55,624 - __main__ - INFO - fetching character id: SlippyCheeze - f0fb1000-0c70-11ee-af5d-c73b7f793038
+2023-08-15 09:50:55,625 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/f0fb1000-0c70-11ee-af5d-c73b7f793038
+2023-08-15 09:50:55,822 - __main__ - INFO - last login: 1691620228747000000
+2023-08-15 09:50:55,822 - __main__ - INFO - has logged in since last check: True
+2023-08-15 09:50:55,822 - __main__ - INFO - fetching character id: SlippyCheeze - 28180311-0afd-11ee-8339-bfe37b485869
+2023-08-15 09:50:55,822 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/28180311-0afd-11ee-8339-bfe37b485869
+2023-08-15 09:50:56,031 - __main__ - INFO - queue position 3 - sleeping for 3 seconds
+2023-08-15 09:50:59,031 - __main__ - INFO - fetching character id: SlippyCheeze - 28180311-0afd-11ee-8339-bfe37b485869
+2023-08-15 09:50:59,032 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/28180311-0afd-11ee-8339-bfe37b485869
+2023-08-15 09:50:59,238 - __main__ - INFO - last login: 1689705709052000000
+2023-08-15 09:50:59,238 - __main__ - INFO - has logged in since last check: True
+2023-08-15 09:50:59,239 - __main__ - INFO - fetching character id: SlippyCheeze - feef0250-01e1-11ee-a5a1-53b48abfe8e4
+2023-08-15 09:50:59,239 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/feef0250-01e1-11ee-a5a1-53b48abfe8e4
+2023-08-15 09:50:59,449 - __main__ - INFO - queue position 3 - sleeping for 3 seconds
+2023-08-15 09:51:02,449 - __main__ - INFO - fetching character id: SlippyCheeze - feef0250-01e1-11ee-a5a1-53b48abfe8e4
+2023-08-15 09:51:02,450 - __main__ - DEBUG - fetching json: https://d4armory.io/api/armory/87115110/feef0250-01e1-11ee-a5a1-53b48abfe8e4
+2023-08-15 09:51:02,656 - __main__ - INFO - last login: 1689705687901000000
+2023-08-15 09:51:02,657 - __main__ - INFO - has logged in since last check: True
+2023-08-15 09:51:02,657 - __main__ - INFO - completed processing account: 87115110
+2023-08-15 09:51:02,657 - __main__ - INFO - COMPLETE EXECUTE
