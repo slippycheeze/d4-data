@@ -2,7 +2,9 @@ name: sync and commit data from d4armory.io
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # every 12 hours
+    # this minute, 12, carefully selected with google `random number 10-59` to *try* and
+    # reduce load bursts on the world.  *try*...
+    - cron: '12 */12 * * *' # every 12 hours
   workflow_dispatch:
 
 jobs:
@@ -11,34 +13,18 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-
-      - name: checkout repo content
-        uses: actions/checkout@main # checkout the repository content to github runner
-
-      - name: setup python
-        uses: actions/setup-python@main
+      - uses: actions/checkout@v3
+        with: 
+          ref: main
+      - uses: actions/setup-python@v4
         with:
-          python-version: '3.10' # install the python version needed
-          
-      - name: install python packages
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          
-      - name: execute py script # run main.py
-        env:
+          python-version: '3.x'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python main.py
+        env: 
           ACCOUNT_ID: ${{ secrets.ACCOUNT_ID }}
-        run: python main.py
-          
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated data" --allow-empty)
-          
-      - name: push changes
-        uses: ad-m/github-push-action@master
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main 
+          commit_message: 'auto-commit of character sync from d4armory.io'
+          
